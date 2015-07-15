@@ -1,6 +1,7 @@
 # angular-tut
 
 https://msysgit.github.io/
+
 https://nodejs.org/download/
 
 open `git bash`
