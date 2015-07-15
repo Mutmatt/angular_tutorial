@@ -1,5 +1,11 @@
 # angular-tut
 
+https://msysgit.github.io/
+https://nodejs.org/download/
+
+open `git bash`
+`npm install`
+
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.12.1.
 
