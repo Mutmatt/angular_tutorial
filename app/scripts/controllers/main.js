@@ -1,3 +1,4 @@
+(function(angular) {
 'use strict';
 
 /**
@@ -8,10 +9,16 @@
  * Controller of the angularTutApp
  */
 angular.module('angularTutApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+  .controller('MainCtrl', mainCtrl);
+
+function mainCtrl() {
+	var that = this;
+
+	that.awesomeThings = [
+	  'HTML5 Boilerplate',
+	  'AngularJS',
+	  'Karma'
+	];
+}
+
+})(angular);
